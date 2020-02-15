@@ -17,3 +17,5 @@ jobs:
       run: dotnet build --configuration Release
     - name: Test with dotnet
       run: dotnet test --configuration Release
+    - name: Test with stryker
+      run: dotnet stryker
