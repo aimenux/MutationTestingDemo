@@ -1,5 +1,6 @@
 ﻿{
   "stryker-config": {
+    "dashboard-project": "MutationTestingDemo",
     "dashboard-version": "V1.0",
     "reporters": [
       "html",
