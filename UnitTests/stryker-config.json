@@ -10,10 +10,10 @@
     ],
     "log-file": true,
     "log-level": "info",
-    "timeout-ms": 5000,
+    "timeout-ms": 10000,
     "threshold-low": 60,
     "threshold-high": 80,
     "threshold-break": 50,
-    "max-concurrent-test-runners": 1
+    "max-concurrent-test-runners": 2
   }
 }
