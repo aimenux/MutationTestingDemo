@@ -20,4 +20,5 @@ jobs:
     - name: Restore dotnet tools
       run: dotnet tool restore
     - name: Test with stryker
+      working-directory: UnitTests
       run: dotnet stryker
