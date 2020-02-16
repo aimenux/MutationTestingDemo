@@ -1,9 +1,7 @@
 ﻿{
   "stryker-config": {
-    "dashboard-api-key": "!STRYKER_DASHBOARD_API_KEY!",
     "dashboard-project": "MutationTestingDemo",
     "dashboard-version": "V1.0",
-    "test-runner": "vstest",
     "reporters": [
       "html",
       "progress"
