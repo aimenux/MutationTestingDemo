@@ -12,6 +12,6 @@
     "threshold-low": 60,
     "threshold-high": 80,
     "threshold-break": 50,
-    "max-concurrent-test-runners": 2
+    "max-concurrent-test-runners": 1
   }
 }
