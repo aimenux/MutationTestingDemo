@@ -1,0 +1,19 @@
+﻿{
+  "stryker-config": {
+    "dashboard-api-key": "!STRYKER_DASHBOARD_API_KEY!",
+    "dashboard-project": "MutationTestingDemo",
+    "dashboard-version": "V1.0",
+    "test-runner": "vstest",
+    "reporters": [
+      "html",
+      "progress"
+    ],
+    "log-file": true,
+    "log-level": "info",
+    "timeout-ms": 5000,
+    "threshold-low": 60,
+    "threshold-high": 80,
+    "threshold-break": 50,
+    "max-concurrent-test-runners": 1
+  }
+}

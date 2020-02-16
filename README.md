@@ -1,4 +1,5 @@
 ![.NET Core](https://github.com/aimenux/MutationTestingDemo/workflows/.NET%20Core/badge.svg)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Faimenux%2FMutationTestingDemo%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/aimenux/MutationTestingDemo/master)
 # MutationTestingDemo
 ```
 Using stryker for mutation testing
