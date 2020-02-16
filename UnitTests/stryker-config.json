@@ -1,6 +1,6 @@
 ﻿{
   "stryker-config": {
-    "dashboard-project": "MutationTestingDemo",
+    "dashboard-project": "github.com/aimenux/MutationTestingDemo",
     "dashboard-version": "V1.0",
     "reporters": [
       "html",
