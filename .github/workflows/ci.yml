@@ -21,6 +21,4 @@ jobs:
       run: dotnet tool restore
     - name: Test with stryker
       working-directory: UnitTests
-      env: 
-        STRYKER_DASHBOARD_API_KEY: ${{ secrets.STRYKER_DASHBOARD_API_KEY }}
-      run: dotnet stryker
+      run: dotnet stryker -cp stryker-config.json --dashboard-api-key ${{ secrets.STRYKER_DASHBOARD_API_KEY }}
