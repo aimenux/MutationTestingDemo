@@ -1,9 +1,9 @@
 {
   "stryker-config": {
     "project-info": {
-      "name": "https://github.com/aimenux/MutationTestingDemo",
+      "name": "github.com/aimenux/MutationTestingDemo",
       "module": null,
-      "version": "0.0.1"
+      "version": null
     },
     "concurrency": 16,
     "mutation-level": "Complete",
