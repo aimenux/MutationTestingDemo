@@ -1,0 +1,52 @@
+{
+  "stryker-config": {
+    "project-info": {
+      "name": null,
+      "module": null,
+      "version": null
+    },
+    "concurrency": 16,
+    "mutation-level": "Complete",
+    "language-version": "latest",
+    "additional-timeout": 5000,
+    "mutate": [
+      "**/*",
+      "!**/Program.cs"
+    ],
+    "solution": null,
+    "configuration": null,
+    "target-framework": null,
+    "project": null,
+    "coverage-analysis": "perTest",
+    "disable-bail": false,
+    "disable-mix-mutants": false,
+    "thresholds": {
+      "high": 80,
+      "low": 60,
+      "break": 30
+    },
+    "verbosity": "info",
+    "reporters": [
+      "Html",
+      "Progress"
+    ],
+    "since": {
+      "enabled": false,
+      "ignore-changes-in": [],
+      "target": null
+    },
+    "baseline": {
+      "enabled": false,
+      "provider": "disk",
+      "azure-fileshare-url": "",
+      "fallback-version": "master"
+    },
+    "dashboard-url": "https://dashboard.stryker-mutator.io",
+    "test-projects": [],
+    "test-case-filter": "",
+    "ignore-mutations": [],
+    "ignore-methods": [],
+    "report-file-name": "mutation-report",
+    "break-on-initial-test-failure": false
+  }
+}

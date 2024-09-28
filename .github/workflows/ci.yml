@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
+      uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 3.1.100
+        dotnet-version: 8.0.x
     - name: Build with dotnet
       run: dotnet build --configuration Release
     - name: Test with dotnet
@@ -21,4 +21,4 @@ jobs:
       run: dotnet tool restore
     - name: Test with stryker
       working-directory: UnitTests
-      run: dotnet stryker -cp stryker-config.json --dashboard-api-key ${{ secrets.STRYKER_DASHBOARD_API_KEY }}
+      run: dotnet stryker -f stryker-config.json -r dashboard --dashboard-api-key ${{ secrets.STRYKER_DASHBOARD_API_KEY }}

@@ -1,0 +1,21 @@
+root = true
+
+# All files
+[*]
+indent_style = space
+
+# C# files
+[*.cs]
+
+# Indentation and spacing
+indent_size = 4
+tab_width = 4
+
+# New line preferences
+end_of_line = crlf
+insert_final_newline = false
+
+# Diagnostic rules
+dotnet_analyzer_diagnostic.category-Security.severity = error
+dotnet_analyzer_diagnostic.category-Reliability.severity = error
+dotnet_analyzer_diagnostic.category-Performance.severity = error

@@ -5,11 +5,11 @@
 Using stryker for mutation testing
 ```
 
-In this demo, i m using [stryker](https://github.com/stryker-mutator/stryker-net) as a [dotnet local tool](https://stu.dev/dotnet-core-3-local-tools/) in order to run mutation testing on ci builds.
+In this demo, i m using [stryker](https://github.com/stryker-mutator/stryker-net) in order to run mutation testing on ci builds.
 
 Results can be reported to multiple formats :
 - html
 - console
 - [dashboard](https://dashboard.stryker-mutator.io/reports/github.com/aimenux/MutationTestingDemo/V1.0)
 
-**`Tools`** : vs19, net core 3.1
+**`Tools`** : net8, stryker, nunit, fluent-assertions
