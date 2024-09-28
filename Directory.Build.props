@@ -1,5 +1,8 @@
 <Project>
     <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
         <Deterministic>true</Deterministic>
         <RunCodeAnalysis>true</RunCodeAnalysis>
         <EnableNETAnalyzers>true</EnableNETAnalyzers>
@@ -8,4 +11,9 @@
         <MSBuildTreatWarningsAsErrors>true</MSBuildTreatWarningsAsErrors>
         <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
     </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DotNet.ReproducibleBuilds" />
+    </ItemGroup>
+    
 </Project>
