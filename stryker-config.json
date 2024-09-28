@@ -3,7 +3,7 @@
     "project-info": {
       "name": "github.com/aimenux/StrykerDemo",
       "module": null,
-      "version": "v1"
+      "version": "master"
     },
     "concurrency": 16,
     "mutation-level": "Complete",
