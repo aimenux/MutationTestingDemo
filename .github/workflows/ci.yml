@@ -22,4 +22,4 @@ jobs:
       - name: Restore dotnet tools
         run: dotnet tool restore
       - name: Run stryker tool
-        run: dotnet stryker -f stryker-config.json -r dashboard --dashboard-api-key ${{secrets.STRYKER_DASHBOARD_API_KEY}}
+        run: dotnet stryker -f stryker-config.json --dashboard-api-key ${{secrets.STRYKER_DASHBOARD_API_KEY}}
