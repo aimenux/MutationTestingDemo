@@ -1,9 +1,9 @@
 {
   "stryker-config": {
     "project-info": {
-      "name": "github.com/aimenux/MutationTestingDemo",
+      "name": "github.com/aimenux/StrykerDemo",
       "module": null,
-      "version": "0.0.2"
+      "version": "v1"
     },
     "concurrency": 16,
     "mutation-level": "Complete",
@@ -27,9 +27,9 @@
     },
     "verbosity": "info",
     "reporters": [
-      "Html",
-      "Progress",
-      "Dashboard"
+      "html",
+      "progress",
+      "dashboard"
     ],
     "since": {
       "enabled": false,
